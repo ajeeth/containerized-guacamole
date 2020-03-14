@@ -15,9 +15,10 @@ Before you start the service configure two mandatory parameters.
 The easiest way is to create a `.env` file in your working directory eg.:
 
 *Step 1*
-
+```sh
 git clone https://github.com/ajeeth/containerized-guacamole.git
 cd containerized-guacamole
+```
 
 *Step 2*
 

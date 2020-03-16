@@ -23,7 +23,7 @@ cd containerized-guacamole
 *Step 2*
 
 ```ini
-cut > .env <<EOF
+cat > .env <<EOF
 POSTGRES_PASSWORD=*****
 VIRTUAL_HOST=workshop.8gears.com
 EOF

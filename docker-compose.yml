@@ -14,7 +14,7 @@ services:
       - "443:443"
     volumes:
       - /opt/docker/containerized-guacamole/conf:/etc/nginx/conf.d
-      - /opt/docker/containerized-guacamole/certs/alghurair.com:/etc/nginx/certs:ro
+      - /opt/docker/containerized-guacamole/certs:/etc/nginx/certs:ro
       - /var/run/docker.sock:/tmp/docker.sock:ro
 
   init-guac-db:
